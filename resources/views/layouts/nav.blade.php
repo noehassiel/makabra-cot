@@ -1,6 +1,6 @@
 <nav class="container-fluid">
     <div class="d-flex align-items-center justify-content-between px-md-3 px-1">
-        <h1 class="logo">
+        <h1 class="logo text-dark">
             noehassiel
         </h1>
 

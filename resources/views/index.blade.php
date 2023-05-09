@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <section class="hero">
+    <section class="hero text-dark">
         <img src="{{ asset('img/back.jpg') }}">
         <div class="container-fluid">
             <div class="row px-3">
@@ -20,11 +20,11 @@
                         <div class="col-md-4 row">
                             <div class="col-6">
                                 <h5>Cliente:</h5>
-                                <p>Derch</p>
+                                <p>Makbra</p>
                             </div>
                             <div class="col-6">
                                 <h5>Fecha:</h5>
-                                <p>10/03/2023</p>
+                                <p>08/05/2023</p>
                             </div>
                         </div>
                         <div class="col-md-4 row">
@@ -71,30 +71,23 @@
                 <div class="col-md-7">
                     <h2>Project Brief</h2>
                     <h3>Visión General</h3>
-                    <p>Proporcionar una plataforma fácil de usar para la creación y gestión de contenido en línea.</p>
-                    <p>El sistema CMS incluirá herramientas para crear y publicar contenido y gestionar usuarios y permisos.
+                    <p>Proporcionar un portafolio interesante y llamativo para los clientes potenciales del estudio.</p>
+                    <p>El portafolio contará con un sistema CMS incluirá herramientas para crear y publicar proyectos y
+                        gestionar cotizaciones.
                     </p>
                     <p>Funcionalidades clave:
                     <ul>
                         <li>
-                            <p>Creación y publicación de contenido: El sistema permitirá a los usuarios crear y publicar
-                                contenido
-                                en diferentes formatos, como texto e imágenes.</p>
+                            <p>Creación y publicación de proyectos: El sistema permitirá a los usuarios crear y publicar
+                                proyectos a partir de una plantilla definida para todos ellos</p>
                         </li>
                         <li>
-                            <p>Formulario de Contacto para clientes potenciales.</p>
-                        </li>
-                        <li>
-                            <h4>Posibles extras:</h4>
-                            <ol>
-                                <li>Publicar vacantes con descriptivas del puesto dentro la página</li>
-                                <li>Blog con categorías de publicaciones</li>
-                            </ol>
+                            <p>CRUD (Create, Read, Update, Delete) de cotizaciones</p>
                         </li>
                     </ul>
                     </p>
                     <p>El enfoque del sitio será dirigirse a los administradores de una manera efectiva y realizar una buena
-                        organización de contenido a través de
+                        organización de proyecto a través de
                         un ambiente digital óptimo para dicha conversión.</p>
                 </div>
                 <div class="col-md-12">
@@ -113,10 +106,6 @@
                 <div class="col-md-12">
                     <hr>
                 </div>
-                <div class="col-md-7">
-                    <h3>Por Definir</h3>
-                    <p>Los requerimientos técnicos</p>
-                </div>
             </div>
         </div>
     </section>
@@ -133,22 +122,22 @@
                             <p>1-2 Días</p>
                         </div>
                         <div class="col-md-4 timeline-bar text-center">
-                            <h6>Desarrollo</h6>
+                            <h6>Diseño</h6>
                             <div class="bar"></div>
-                            <p>1 Semanas</p>
+                            <p>2 Semanas</p>
                         </div>
                         <div class="col-md-4 timeline-bar text-center">
-                            <h6>Implementación</h6>
+                            <h6>Desarrollo</h6>
                             <div class="bar"></div>
-                            <p>1 Semanas</p>
+                            <p>2 Semanas</p>
                         </div>
                         <div class="col-md-2 timeline-bar text-center">
-                            <h6>Testing</h6>
+                            <h6>Testing e Implementación</h6>
                             <div class="bar"></div>
-                            <p>1-2 Días</p>
+                            <p>2-5 Días</p>
                         </div>
                     </div>
-                    <h5 class="mt-4">Tiempo Estimado: 2 Semanas</h5>
+                    <h5 class="mt-4">Tiempo Estimado: 5 Semanas</h5>
                 </div>
 
                 <div class="col-md-3">
@@ -173,6 +162,51 @@
                     <small class="text-danger">*En caso de que el cliente requiera otro módulo o funcionamiento fuera del
                         documento de
                         requerimientos técnicos, se tendrá que cotizar aparte y aplazar los tiempos de entrega.</small>
+                </div>
+                <div class="col-md-12">
+                    <hr>
+                </div>
+                <div class="col-md-3">
+                    <h3>Diseño</h3>
+                </div>
+                <div class="col-md-9">
+                    <p>La fase de diseño es una de las etapas más importantes dentro de un proyecto web. En esta fase, se
+                        establece la apariencia visual y la funcionalidad de la página web. A continuación, se describen los
+                        pasos generales que se siguen durante la fase de diseño en un proyecto web:</p>
+                    <ul>
+                        <li>
+                            <p>Análisis de la información: En esta etapa se analiza la información recopilada previamente
+                                durante la fase de planificación. Esto incluye los objetivos, los requisitos y los elementos
+                                clave que deben incluirse en la página web.</p>
+                        </li>
+                        <li>
+                            <p>Diseño de la estructura: En esta etapa se define la estructura general de la página web,
+                                incluyendo la navegación y la disposición de los elementos en la página. Se pueden utilizar
+                                herramientas como wireframes y diagramas de flujo para visualizar la estructura de la
+                                página.</p>
+                        </li>
+                        <li>
+                            <p>Diseño visual: En esta etapa se diseña el aspecto visual de la página web, incluyendo la
+                                selección de colores, tipografía, imágenes y otros elementos gráficos. Se pueden utilizar
+                                herramientas de diseño gráfico como Adobe Photoshop o Sketch para crear diseños de alta
+                                calidad.</p>
+                        </li>
+                        <li>
+                            <p>Prototipado: En esta etapa se crea un prototipo de la página web que permita visualizar cómo
+                                se verá la página web en un navegador web. El prototipo puede ser interactivo, lo que
+                                permite a los usuarios navegar por la página y probar la funcionalidad.</p>
+                        </li>
+                        <li>
+                            <p>Revisión y ajustes: Una vez que se ha creado el prototipo, se realiza una revisión para
+                                identificar cualquier problema o ajuste que deba realizarse. Esto puede incluir cambios en
+                                la estructura, el diseño visual o la funcionalidad de la página web.</p>
+                        </li>
+                        <li>
+                            <p>Entrega: Una vez que se ha finalizado el diseño y se han realizado todos los ajustes
+                                necesarios, se entrega el diseño a los desarrolladores para que lo implementen y creen la
+                                página web final.</p>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-md-12">
                     <hr>
@@ -219,38 +253,7 @@
                 </div>
 
                 <div class="col-md-3">
-                    <h3>Testing</h3>
-                </div>
-                <div class="col-md-9">
-                    <p>En la etapa de pruebas realizadas por el cliente, se espera que el cliente evalúe el sistema CMS y lo
-                        pruebe para asegurarse de que funcione de manera satisfactoria y cumpla con sus requisitos. Durante
-                        esta etapa, se realizan las siguientes actividades:</p>
-                    <ul>
-                        <li>
-                            <p>Evaluación: El cliente evalúa el sistema CMS para asegurarse de que cumpla con sus requisitos
-                                y esperanzas.</p>
-                        </li>
-                        <li>
-                            <p>Pruebas funcionales: El cliente realiza pruebas funcionales en el sistema CMS para asegurarse
-                                de que funcione de manera adecuada y cumpla con los requisitos específicos.</p>
-                        </li>
-                        <li>
-                            <p>Pruebas de usuario: El cliente realiza pruebas de usuario para asegurarse de que el sistema
-                                CMS sea fácil de usar y satisfactorio para sus usuarios finales.</p>
-                        </li>
-                        <li>
-                            <p>Notificaiones de errores: El cliente realizará un listado de todos los errores o mejoras que
-                                se pueden hacer en el sistema para así irlos solucionando a la par y tener con más rapidez
-                                el sistema listo.</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-12">
-                    <hr>
-                </div>
-
-                <div class="col-md-3">
-                    <h3 style="font-size:3vw">Implementación</h3>
+                    <h3 style="font-size:3vw">Implementación y Testing</h3>
                 </div>
                 <div class="col-md-9">
                     <p>La fase de implementación es una de las fases más importantes en un proyecto de CMS, ya que es el
@@ -305,8 +308,8 @@ background-size: cover;">
                     <h3>Presupuesto</h3>
                     <div class="table-price p-4">
                         <div class="title-table d-flex justify-content-between px-1 align-items-center">
-                            <h4>Derch / CMS</h4>
-                            <h4>10/Mar/2023</h4>
+                            <h4>Makbra / CMS</h4>
+                            <h4>08/May/2023</h4>
                         </div>
                         <hr>
                         <div class="d-block d-md-flex px-1 justify-content-between align-items-center mt-5">
@@ -325,27 +328,10 @@ background-size: cover;">
                                 </ul>
                             </div>
                             <div>
-                                <h4>$ 8,000</h4>
+                                <h4>$ 0</h4>
                             </div>
                         </div>
                         <hr>
-                        <ul>
-                            <li>
-                                <p>3 Pagos</p>
-                                <ul>
-                                    <li>
-                                        <p>Primero: Depósito del 50% antes de iniciar el proyecto</p>
-                                    </li>
-                                    <li>
-                                        <p>Segundo: Una vez terminada la fase de implementación</p>
-                                    </li>
-                                    <li>
-                                        <p>Tercero: Una vez terminado el Testing para así entregar el proyecto en servidor
-                                        </p>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
                     </div>
                 </div>
 
@@ -472,7 +458,7 @@ background-size: cover;">
 
                 var password = $('#pass').val();
 
-                var correct = 'WxjuZ2bqLTY9';
+                var correct = 'GbfASB6DMDSUUB';
 
                 if (password == correct) {
 

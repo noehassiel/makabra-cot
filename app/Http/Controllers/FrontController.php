@@ -15,7 +15,7 @@ class FrontController extends Controller
         $email = $request->email;
         $name = $request->name;
 
-        if ($password == 'WxjuZ2bqLTY9') {
+        if ($password == 'GbfASB6DMDSUUB') {
             //Correo
             $data = array(
                 'name' => $name,
@@ -23,7 +23,7 @@ class FrontController extends Controller
             );
 
             $files = [
-                public_path('attachments/cot-derch.pdf'),
+                public_path('attachments/makbra-cot.pdf'),
             ];
 
             try {
